@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+        .row{
+            padding: 50px;
+        }
+
+        .col1{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border: 2px solid grey;
+            background-color: white;
+            box-shadow: 10px 10px 5px gray);
+            float: left;
+            -ms-transform: rotate(7deg);
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+        }
+
+        .col1 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col1:hover{
+            transform: rotate(0deg);
+        }
+
+
+        .col2{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border: 2px solid gray;
+            background-color: white;
+            box-shadow: 10px 10px 5px gray;
+            float: left;
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+        }
+
+        .col2 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col2:hover{
+            transform: rotate(0deg);
+        }
+
+        .row:after{
+            content:" ";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width:600px){
+            .col1{
+                width: 100%;
+            }
+            .col2{
+                width: 100%;
+            }
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="row">
+
+        <div class="col1">
+            <img src="img/pic1.jpg" width="100%">
+            <span>DUSK MAIDEN OF AMNESIA </span>
+            <p class="desc1"> DUSK MAIDEN OF AMNESIA revolves around a first-year high school student,
+                 Teiichi Niiya who had just enrolled at Seikyou Private Academy. 
+                 One day while wandering the hallowed halls,
+                  he gets lost in one of the school's old buildings and encounters Yuuko Kanoe, 
+                who reveals herself as a ghost with no memories. </p>
+
+        </div>
+
+        <div class="col2">
+            <img src="img/detective conan.jpg" width="100%">
+            <span>DETECTIVE CONAN </span>
+            <p class="desc2">Case Closed, also known as Detective Conan, is a Japanese detective manga series written and 
+                illustrated by Gosho Aoyama. 
+                It has been serialized in Shogakukan's 
+                shōnen manga magazine Weekly Shōnen Sunday since January 1994,
+                 with its chapters collected in 102 tankōbon volumes as of September 2022. </p>
+
+        </div>
+
+        <!-- -->
+        <div class="col1">
+            <img src="img/chainsaw-man.jpg" width="100%">
+            <span>CHAINSAW SMAN </span>
+            <p class="desc1">Denji was a small-time devil hunter just trying to survive in a harsh world. 
+                After being killed on a job, 
+                he is revived by his pet devil Pochita and becomes something new and dangerous—Chainsaw Man!
+                 Denji's a poor young man who'll do anything for money, 
+                even hunting down devils with his pet devil-dog Pochita. </p>
+
+        </div>
+
+        <div class="col2">
+            <img src="img/one-piece-anime.avif" width="100%">
+            <span>ONE PIECE </span>
+            <p class="desc2">One Piece is the story of Monkey D. Luffy, a young man who has a single dream: To find the 
+                legendary treasure known as the One Piece and become the King of the Pirates.
+                 Alongside a crew of trusted friends, 
+                Luffy sails the dangerous seas of the Grand Line to find Laugh Tale, the hidden island containing the One Piece. </p>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+
+</html>
